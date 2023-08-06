@@ -1,4 +1,4 @@
 package-lock.json
 node_modules
 .vscode
-config/default.json
+config/default.jsx

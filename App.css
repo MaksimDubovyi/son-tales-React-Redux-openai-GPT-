@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Domine:700);
+
+body {
+    margin: 0;
+    background: rgb(80, 177, 198);
+}
+
+.mainContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.headerContainer {
+    background: rgb(83, 157, 226);
+    position: fixed;
+    top: 1%;
+    width: 90%;
+    margin: 0 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    box-shadow: inset 0 0 10px rgba(0, 77, 243, 0.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.headItem {
+    margin-top: 1%;
+    margin-right: 30%;
+}
+
+.textHeaderContainer,
+.textStyleItem {
+    display: inline;
+    color: #353346;
+    font-weight: bolder;
+    font-family: 'Domine', serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    text-shadow: 0px 1px 1px #212029, 0px 0px 1px rgba(45, 43, 62, 1);
+    margin: 0;
+}
+
+.textStyleItem {
+    font-size: 45px;
+}
+
+.imgSpiderMan
+{
+    margin-top: 10%;
+    width: 20%;
+    height:20%;
+    display: inline;
+}
+
+@media (max-width: 800px) {
+    .textHeaderContainer {
+        font-size: 18px;
+
+    }
+
+    .headItem {
+        margin-right: 20%;
+    }
+
+
+}
+
+@media (max-width: 380px) {
+    .textHeaderContainer {
+        font-size: 15px;
+    }
+
+    .textStyleItem {
+        font-size: 35px;
+    }
+
+    .headItem {
+        margin-right: 10%;
+    }
+}
+

@@ -1,0 +1,42 @@
+.StoriesBlock{
+    margin: 100px 50px 50px 50px;
+    box-shadow: 2px 2px 5px #FFF, 2px 2px 5px #b4b8c2;
+    background-color:#a4effb ;
+    align-items: center;
+}
+.StoriesTxt{
+   margin: 20px;
+   font-size: 20px;
+   font-weight: 700;
+   font-family: 'Domine', serif;
+}
+
+
+
+.request__button {
+    margin-left: 15%;
+    margin-bottom: 40px;
+    height: 8%;
+    width: 70%;
+    color: #262729;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #e1e2dc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #383737, 5px 5px 10px #b4b8c2;
+    transition: all 0.2s ease-in-out;
+}
+
+.request__button:hover {
+
+    color: #dadad4;
+    box-shadow: 2px 2px 5px #FFF, 2px 2px 5px #b4b8c2;
+    background: #2c2c2c;
+}
+
+.request__button:active {
+    background: #474746;
+}

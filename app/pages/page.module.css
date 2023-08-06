@@ -1,0 +1,61 @@
+.PageContainer {
+    display: flex;
+    margin-top: 10%;
+}
+
+.itemPage {
+    box-sizing: border-box;
+    margin: 2%;
+}
+
+.hiTxt{
+   
+    color: #1a191f;
+    font-weight: bolder;
+    font-family: 'Domine', serif;
+    font-variant: small-caps;
+    text-shadow: 0px 2px 2px #212029, 0px 3px 2px rgb(183, 14, 14);
+    font-size: 50px;
+    font-weight: 100;
+
+}
+
+/* Стилі для ширини екрану менше 768px */
+@media (max-width: 600px) {
+
+    .PageContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20%;
+    }
+    .hiTxt{  font-size: 30px;}
+
+}
+
+
+.request__button {
+    margin-left: 20px;
+    height: 8%;
+    width: 70%;
+    color: #262729;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #e1e2dc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #383737, 5px 5px 10px #b4b8c2;
+    transition: all 0.2s ease-in-out;
+}
+
+.request__button:hover {
+
+    color: #dadad4;
+    box-shadow: 2px 2px 5px #FFF, 2px 2px 5px #b4b8c2;
+    background: #2c2c2c;
+}
+
+.request__button:active {
+    background: #474746;
+}
